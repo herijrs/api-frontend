@@ -203,23 +203,7 @@ export default () => {
 | onViewMore   | 查看更多的按钮点击 | `( e: MouseEvent) => void`           | -      |
 | list         | 通知信息的列表     | `API.NoticeIconData`                 | -      |
 
-### NoticeIconData
 
-```tsx | pure
-export type NoticeIconData {
-  id: string;
-  key: string;
-  avatar: string;
-  title: string;
-  datetime: string;
-  type: string;
-  read?: boolean;
-  description: string;
-  clickClose?: boolean;
-  extra: any;
-  status: string;
-}
-```
 
 ## RightContent
 

@@ -22,7 +22,6 @@ const InterfaceAnalysis: React.FC = () => {
     } catch (e: any) {
 
     }
-    // todo 从远程获取数据
   }, [])
 
   // 映射：{ value: 1048, name: 'Search Engine' },
